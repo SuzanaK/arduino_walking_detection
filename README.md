@@ -11,6 +11,11 @@ Additional Element: 1 Mega Ohm Resistor
 Arduino IDE: 1.0.4
 Python 2.7.3
 
+How to plot the results from the sample file:  
+
+    import matplotlib.pyplot as plt
+    plt.plotfile('piezo_sensor_sample_30_sec.csv', delimiter='\t', cols=(0, 1))
+    plt.show()
 
 
 
